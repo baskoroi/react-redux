@@ -1,5 +1,5 @@
 {
-  "name": "1-basic-react",
+  "name": "2-react-router",
   "version": "1.0.0",
   "description": "Followed from Learncode.academy's React/Redux tutorial",
   "main": "webpack.config.js",
@@ -13,6 +13,7 @@
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
     "webpack": "^1.13.2"
   },
   "devDependencies": {
