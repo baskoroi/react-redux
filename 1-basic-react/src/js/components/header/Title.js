@@ -1,9 +1,11 @@
 import React from 'react';
 
-export default React.createClass({
+const Title = React.createClass({
     render: function() {
         return (
-            <h1>Welcome!</h1>
+            <h1>{this.props.title}</h1>
         );
     }
 });
+
+export default Title;
