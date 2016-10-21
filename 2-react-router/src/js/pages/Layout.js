@@ -12,8 +12,6 @@ const Layout = React.createClass({
                 <div class="container">
                     <div id="main" class="row">
                         <div class="col-lg-12">
-                            <h1>KillerNews.net</h1>
-
                             {this.props.children}
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Nav = React.createClass({
     render: function() {
@@ -17,13 +18,19 @@ const Nav = React.createClass({
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="#">Featured</a>
+                            <Link to="/">
+                                <span onClick={this.props.clickHandler}>Featured</span>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">Archives</a>
+                            <Link to="/archives">
+                                <span onClick={this.props.clickHandler}>Archives</span>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">Settings</a>
+                            <Link to="/settings">
+                                <span onClick={this.props.clickHandler}>Settings</span>
+                            </Link>
                         </li>
                     </ul>
                 </div>
