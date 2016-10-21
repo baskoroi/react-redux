@@ -4,6 +4,7 @@
   "description": "Followed from Learncode.academy's React/Redux tutorial",
   "main": "webpack.config.js",
   "scripts": {
+    "dev": "webpack-dev-server --content-base src/ --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -23,6 +24,7 @@
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-0": "^6.16.0"
+    "babel-preset-stage-0": "^6.16.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }
