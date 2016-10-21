@@ -1,12 +1,12 @@
 import React from 'react';
 import Title from './header/Title';
 
-export default class Header extends React.Component {
-    render() {
+export default React.createClass({
+    render: function() {
         return (
             <header>
                 <Title />
             </header>
         );
     }
-}
+});

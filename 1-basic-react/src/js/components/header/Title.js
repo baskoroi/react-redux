@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default class Title extends React.Component {
-    render() {
+export default React.createClass({
+    render: function() {
         return (
             <h1>Welcome!</h1>
         );
     }
-}
+});
