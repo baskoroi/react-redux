@@ -1,11 +1,12 @@
-import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import React from "react"
+
+import Header from "./Header"
+import Footer from "./Footer"
 
 const Layout = React.createClass({
     getInitialState: function() {
         return {
-            title: 'Welcome'
+            title: "Hello, world!"
         };
     },
     changeTitle: function(title) {
