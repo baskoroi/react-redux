@@ -18,19 +18,13 @@ const Nav = React.createClass({
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <Link to="/">
-                                <span onClick={this.props.clickHandler}>Featured</span>
-                            </Link>
+                            <Link to="/">Featured</Link>
                         </li>
                         <li>
-                            <Link to="/archives">
-                                <span onClick={this.props.clickHandler}>Archives</span>
-                            </Link>
+                            <Link to="/archives">Archives</Link>
                         </li>
                         <li>
-                            <Link to="/settings">
-                                <span onClick={this.props.clickHandler}>Settings</span>
-                            </Link>
+                            <Link to="/settings">Settings</Link>
                         </li>
                     </ul>
                 </div>
